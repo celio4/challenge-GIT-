@@ -9,4 +9,22 @@
 }
 .boite-gauche, .boite-droit{
     height: 200px;
+    }
+
+.accauil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+    color: black;
+}
+
+h2 {
+    font-size: 32px;
+    color: brown;
 }
