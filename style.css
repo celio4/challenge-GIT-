@@ -8,20 +8,13 @@
 .border{
    border: solid 1px; 
    border-radius: 10px;
-   border: 0;
+  
 }
-.boite-gauche, .boite-droit{
-    width: 60%;
-    padding: 10px;
-    justify-content: flex-end;
+.grande{
+    width: 600px;
+    height: 400px;
+    display: flex;
 }
-.boite-gauche{
-    background-color: black;
-    color: red;
-    height: 150px;
-}
-.boite-droit{
-    background-color: red;
-    color: white;
-    height: 100px;
+.boite1, .boite{
+    flex: 1;
 }
